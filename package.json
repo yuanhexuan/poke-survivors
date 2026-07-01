@@ -1,6 +1,6 @@
 {
   "name": "poke-survivors",
-  "version": "0.1.0",
+  "version": "2.21.0",
   "description": "Pokémon Vampire Survivors - Fan Game",
   "private": true,
   "type": "module",
@@ -16,7 +16,9 @@
   },
   "dependencies": {
     "@tauri-apps/plugin-shell": "^2.3.5",
-    "phaser": "^3.90.0"
+    "jsdom": "^29.1.1",
+    "phaser": "^3.90.0",
+    "socket.io-client": "^4.8.3"
   },
   "devDependencies": {
     "@tauri-apps/cli": "^2.10.0",
